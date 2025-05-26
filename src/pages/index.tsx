@@ -1,27 +1,27 @@
-import React, { useEffect, useMemo, useState } from "react";
+import React, {  useMemo } from "react";
 import { Menu, Button, Flex } from "antd";
-import { Link, Outlet, useLocation, useOutlet } from "react-router-dom";
-import { CloseOutlined, MenuOutlined, PhoneOutlined } from "@ant-design/icons";
+import { Link, Outlet, useLocation } from "react-router-dom";
+import { PhoneOutlined } from "@ant-design/icons";
 import CustomOutlet from "../components/CustomOutlet";
 import { scrollToTop } from "../utils/window";
 import Burger from "./Burger";
 
 const Layout: React.FC = () => {
   const location = useLocation();
-  const [navOpen, setNavOpen] = useState(false);
 
   const isMain = useMemo(() => location.pathname === "/", [location.pathname]);
   const background = useMemo(
     () =>
       isMain
         ? {
-            background: 'url("/bg.png")',
+            background: 'url("/bg.jpg")',
             backgroundSize: "cover",
-            backgroundPosition: "center center",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center bottom",
           }
         : {
             background:
-              "linear-gradient(135deg, rgb(255, 165, 0) 0%, rgba(0, 0, 0, 1) 100%)",
+              "linear-gradient(135deg, rgba(14, 48, 86, 0.8) 0%, rgba(1, 114, 128, 0.8) 100%)",
           },
     [isMain],
   );

@@ -12,8 +12,8 @@ import { useLocation } from "react-router-dom";
 import { UploadOutlined } from "@ant-design/icons";
 import axios from "axios";
 
-const TELEGRAM_BOT_TOKEN = "7386500945:AAGJfS56X9i1cS8zVfuHxffOAibjPpkNleQ";
-const TELEGRAM_CHAT_ID = -1002205658437;
+const TELEGRAM_BOT_TOKEN = "7579312178:AAGxpBMHazN6iEgXrvznybqcs7ZTcErlZmw";
+const TELEGRAM_CHAT_ID = -1002520321732;
 
 const sendMessage = async (messageText: string, file?: File) => {
   const url = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`;

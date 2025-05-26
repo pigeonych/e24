@@ -21,7 +21,7 @@ const Layout: React.FC = () => {
           }
         : {
             background:
-              "linear-gradient(135deg, rgba(14, 48, 86, 0.8) 0%, rgba(1, 114, 128, 0.8) 100%)",
+              "linear-gradient(135deg, rgb(255, 165, 0) 0%, rgba(0, 0, 0, 1) 100%)",
           },
     [isMain],
   );
@@ -32,9 +32,11 @@ const Layout: React.FC = () => {
           <Flex vertical className={"w-2/3"} gap={40}>
             <Flex className={"w-full"} justify={"space-between"}>
               <Flex align={"center"} gap={4}>
-                <img src="/logo_logitex.png" alt="Logo" className="max-h-16" />
+                <img src="/e24.svg" alt="Logo" className="max-h-32" />
               </Flex>
-              <Button type="primary" className={"subzero:hidden burger:flex"}>
+              <Button type="primary" className={"subzero:hidden burger:flex"} style={{
+                backgroundColor: "#d46b08"
+              }}>
                 <Link
                   to={"/"}
                   onClick={() => {
@@ -109,20 +111,20 @@ const Layout: React.FC = () => {
                 <Flex vertical className="text-white font-medium" gap={5}>
                   <a
                     type={"phone"}
-                    href={"tel:+19299988682"}
+                    href={"tel:+13312491899"}
                     className={"flex align-middle gap-x-1"}
                   >
                     <PhoneOutlined />
-                    +1 (929) 998-86-82
+                    +1 (331) 249-1899
                   </a>
-                  {/*<a*/}
-                  {/*  type={"phone"}*/}
-                  {/*  href={"tel:+12057292332"}*/}
-                  {/*  className={"flex align-middle gap-x-1"}*/}
-                  {/*>*/}
-                  {/*  <PhoneOutlined />*/}
-                  {/*  +1 (205) 729-23-32*/}
-                  {/*</a>*/}
+                  <a
+                    type={"phone"}
+                    href={"tel:+13312089193"}
+                    className={"flex align-middle gap-x-1"}
+                  >
+                    <PhoneOutlined />
+                    +1 (331) 208-9193
+                  </a>
                 </Flex>
               </Flex>
             </Flex>
@@ -137,13 +139,16 @@ const Layout: React.FC = () => {
         <Flex className={"gap-x-12 laptop:gap-x-24"}>
           <Flex vertical className={"text-white"} gap={20}>
             <Flex gap={20}>
-              <img src="/logo_logitex.png" alt="Logo" className={"max-h-16"} />
+              <img src="/e24.svg" alt="Logo" className={"max-h-32"} />
             </Flex>
             <p className={"opacity-90 text-lg max-w-sm text-white"}>
               Reliable, quality and efficient service for your company.
             </p>
             <p className={"opacity-50 text-white"}>
-              All rights reserved &copy; {new Date().getFullYear()} Logitex
+              All rights reserved &copy; E24 - {new Date().getFullYear()}
+            </p>
+            <p className="opacity-50 text-white -mt-4">
+              1217 RHAWN ST APT 1, PHILADELPHIA, PA, 19111
             </p>
           </Flex>
           <Flex
@@ -180,7 +185,7 @@ const Layout: React.FC = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="#"
+                href="https://t.me/Manager_E24"
                 className="hover-enlarge"
               >
                 <svg width="32" height="32" viewBox="0 0 32 32" fill="none">

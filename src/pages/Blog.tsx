@@ -8,14 +8,14 @@ import { useLocation } from "react-router-dom";
 const db = [
   {
     id: 1,
-    title: "DISPATCH services are now available at Logitex!",
+    title: "DISPATCH services are now available at E24!",
     description:
       "Our company has been providing services in ELD and SAFETY for more than 2 years.",
     image: PickUp,
   },
   {
     id: 2,
-    title: "New TRAILER services are now available at Logitex!",
+    title: "New TRAILER services are now available at E24!",
     description:
       "We have been delivering services for more than 1000+ ELD, and 100+ Dispatch units.",
     image: Trailer,

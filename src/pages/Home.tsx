@@ -10,14 +10,14 @@ export default function Home() {
   return (
     <Flex vertical gap={30} className={"w-2/3 text-start pb-10"}>
       <h1 className="drop-text-fast text-3xl jumbo:text-6xl font-bold text-white tracking-normal">
-        Logitex - reliability, quality and e
+        E24 - reliability, quality and e
         <span className="tracking-wide">ff</span>iciency!
       </h1>
       <p className="drop-text-slow text-xl jumbo:text-2xl font-semibold text-white">
         More than 150+ companies already choose our services, and you?
       </p>
       <p className="drop-text-slowest subzero:hidden phone:block text-sm jumbo:text-lg max-w-lg text-white">
-        Logitex is a company founded in 2020 in USA with an office in
+        E24 is a company founded in 2020 in USA with an office in
         Tashkent. <br /> <br /> We provide quality services in: <br /> — ELD{" "}
         <br />
         — DISPATCH <br />— SAFETY <br />
@@ -26,7 +26,9 @@ export default function Home() {
         as well as creating the opportunity to receive high-quality service at
         an affordable price.
       </p>
-      <Button type="primary" className="max-w-fit">
+      <Button type="primary" className="max-w-fit" style={{
+          backgroundColor: "#d46b08"
+      }}>
         <Link to={"/services"}>Our Services</Link>
       </Button>
     </Flex>

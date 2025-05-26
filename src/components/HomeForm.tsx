@@ -10,7 +10,7 @@ export const HomeForm = () => {
     >
       <Flex vertical className={"py-10 desktop:max-w-lg w-full px-10"} gap={20}>
         <h1 className="text-4xl font-bold text-primary">
-          Logitex is waiting for You!
+          E24 is waiting for You!
         </h1>
         <p className="text-lg">
           It's simple! If you: <br />— Know English and Russian languages <br />

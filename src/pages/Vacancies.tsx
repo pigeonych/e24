@@ -96,9 +96,9 @@ const Vacancies = () => {
             </svg>
             <Flex vertical gap={5}>
               <h1 className={"text-lg text-secondary font-semibold"}>
-                Work in Logitex team
+                Work in E24 team
               </h1>
-              <p>Logitex is looking for proficient dispatchers.</p>
+              <p>E24 is looking for proficient dispatchers.</p>
             </Flex>
           </Flex>
         </Flex>

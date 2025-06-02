@@ -1,4 +1,4 @@
-import { Flex } from "antd";
+import {Button, Flex} from "antd";
 import React from "react";
 
 export const Card = ({
@@ -18,7 +18,7 @@ export const Card = ({
           alt={title}
           style={{ width: "70px", height: "70px", borderRadius: 20 }}
         />
-        <h2 className="text-md tablet:text-lg font-semibold text-primary">
+        <h2 className="text-md tablet:text-lg font-semibold text-black">
           {title}
         </h2>
       </Flex>

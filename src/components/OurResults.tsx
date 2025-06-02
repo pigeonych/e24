@@ -3,9 +3,9 @@ import React from "react";
 import { MiniCard } from "./MiniCard";
 import HackerGirl from "../assets/p1.png";
 import Boxes from "../assets/p2.png";
-import EldIcon from "../assets/map-marker.png";
-import SafetyIcon from "../assets/tick.png";
-import DispatchIcon from "../assets/dispatch.png";
+import EldIcon from "../assets/map.png";
+import SafetyIcon from "../assets/shield.png";
+import DispatchIcon from "../assets/sup.png";
 import { Link } from "react-router-dom";
 
 export const OurResults = () => {

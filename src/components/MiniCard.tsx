@@ -12,7 +12,7 @@ export const MiniCard = ({
   return (
     <Flex
       align={"center"}
-      className={"shadow-lg rounded-lg w-full tablet:w-auto"}
+      className={"rounded-lg w-full tablet:w-auto"}
     >
       <img
         src={image}

@@ -16,12 +16,12 @@ function App() {
     <ConfigProvider
       theme={{
         token: {
-          colorPrimary: "#1f6bbd",
+          colorPrimary: "#d46b08",
         },
         components: {
           Menu: {
             fontSize: 22,
-            colorPrimary: "#facd40",
+            colorPrimary: "#d46b08",
             activeBarHeight: 3,
           },
           Button: {

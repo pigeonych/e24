@@ -1,10 +1,10 @@
 import { Flex } from "antd";
 import { Card } from "./Card";
-import EldIcon from "../assets/eld.png";
-import DispatchIcon from "../assets/dispatch.png";
+import EldIcon from "../assets/map.png";
+import DispatchIcon from "../assets/sup.png";
 import AuditIcon from "../assets/audit.png";
-import TwentyFourSevenIcon from "../assets/24_7.png";
-import DotIcon from "../assets/dot.png";
+import TwentyFourSevenIcon from "../assets/24sup.png";
+import DotIcon from "../assets/gear.png";
 import React from "react";
 
 const Cards = () => {
@@ -23,7 +23,7 @@ const Cards = () => {
         }
       >
         <Card
-          title={"ELD (Electronic Logging Device)"}
+          title={"ELD (Logbook)"}
           description={
             "Specialists from our ELD department support drivers and dispatchers in real-time 24/7 by keeping them informed about delivery status, recording driving activity and other information such as engine hours, ignition status, location and miles driven."
           }

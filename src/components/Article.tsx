@@ -37,7 +37,7 @@ export const Article = ({
         </Flex>
       </Flex>
       {extended ? (
-        <h1 className={"text-3xl text-start font-semibold text-secondary"}>
+        <h1 className={"text-3xl text-start font-semibold text-black"}>
           {title}
         </h1>
       ) : (
@@ -47,7 +47,7 @@ export const Article = ({
             window.scrollTo({ top: 0, behavior: "smooth" });
           }}
           className={
-            "text-3xl text-start font-semibold text-secondary hover:opacity-70"
+            "text-3xl text-start font-semibold text-black hover:opacity-70"
           }
         >
           {title}

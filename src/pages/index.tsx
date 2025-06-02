@@ -21,7 +21,7 @@ const Layout: React.FC = () => {
           }
         : {
             background:
-              "linear-gradient(135deg, rgba(14, 48, 86, 0.8) 0%, rgba(1, 114, 128, 0.8) 100%)",
+                "linear-gradient(135deg, rgb(207, 125, 0) 0%, rgba(0, 0, 0, 1) 100%)",
           },
     [isMain],
   );

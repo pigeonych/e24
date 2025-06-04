@@ -10,6 +10,7 @@ import Services from "./pages/Services";
 import Vacancies from "./pages/Vacancies";
 import Blog from "./pages/Blog";
 import Welcome from "./components/Welcome";
+import TermsConditions from "./pages/TermsConditions";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path="about" element={<About />} />
             <Route path="services" element={<Services />} />
+            <Route path="terms-and-privacy-policy" element={<TermsConditions />} />
             <Route path="vacancies" element={<Vacancies />} />
             <Route path="blog" element={<Blog />} />
             <Route path="blog/:id" element={<Blog />} />

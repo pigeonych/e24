@@ -95,6 +95,11 @@ const Layout: React.FC = () => {
                     <div className={"text-white pb-5"}>Blog</div>
                   </Link>
                 </Menu.Item>
+                <Menu.Item key="/terms-and-privacy-policy">
+                  <Link to="/terms-and-privacy-policy">
+                    <div className={"text-white pb-5"}>Terms & Policy</div>
+                  </Link>
+                </Menu.Item>
               </Menu>
               <Flex
                 align={"center"}
@@ -178,6 +183,11 @@ const Layout: React.FC = () => {
               <Link to={"/blog"} onClick={scrollToTop}>
                 <span className={"before-dot text-white hover:opacity-70"}>
                   Blog
+                </span>
+              </Link>
+              <Link to={"/terms-and-privacy-policy"} onClick={scrollToTop}>
+                <span className={"before-dot text-white hover:opacity-70"}>
+                  Terms & Policy
                 </span>
               </Link>
             </Flex>

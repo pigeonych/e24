@@ -111,6 +111,15 @@ const Burger = () => {
               Blog
             </Link>
           </li>
+          <li>
+            <Link
+                to="/terms-and-privacy-policy"
+                className="text-lg font-medium hover:text-blue-500"
+                onClick={onNavigation}
+            >
+              Terms & Policy
+            </Link>
+          </li>
           <li id={"contact"}>
             <Link
               to="/"

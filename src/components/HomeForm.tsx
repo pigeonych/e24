@@ -20,14 +20,14 @@ export const HomeForm = () => {
         <Flex vertical gap={1}>
           <span>Send your CV to our mail:</span>
           <a
+            href="mailto:sales@e24logs.com"
             onClick={() => {
-              void navigator.clipboard.writeText(
-                "info@logitex.us",
-              );
+              void navigator.clipboard.writeText("sales@e24logs.com");
               void message.success("Email copied to clipboard");
             }}
+            className="underline"
           >
-            info@logitex.us{" "}
+            sales@e24logs.com{" "}
           </a>
         </Flex>
         <p className={"text-xl text-primary"}>
